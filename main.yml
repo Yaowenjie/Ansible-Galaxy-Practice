@@ -1,0 +1,4 @@
+- hosts: jenkins
+  sudo: yes
+  roles:
+    - flyapen.jenkins
